@@ -19,8 +19,8 @@
 		186556FB1FDFE3EC00786034 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186556F01FDFE3EC00786034 /* Info.plist */; };
 		186556FC1FDFE3EC00786034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186556F11FDFE3EC00786034 /* Main.storyboard */; };
 		186557021FDFE40100786034 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186556FF1FDFE40100786034 /* CrashReporter.framework */; };
-		186557031FDFE43200786034 /* AESKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186556FE1FDFE40100786034 /* AESKit.framework */; };
-		186557041FDFE43200786034 /* AESKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 186556FE1FDFE40100786034 /* AESKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18E9A0DB1FE0154600C1EEA4 /* AESKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9A0D91FE0153900C1EEA4 /* AESKit.framework */; };
+		18E9A0DC1FE0154600C1EEA4 /* AESKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9A0D91FE0153900C1EEA4 /* AESKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				186557041FDFE43200786034 /* AESKit.framework in Embed Frameworks */,
+				18E9A0DC1FE0154600C1EEA4 /* AESKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,8 +51,8 @@
 		186556EF1FDFE3EC00786034 /* ZD_Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_Define.swift; sourceTree = "<group>"; };
 		186556F01FDFE3EC00786034 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186556F11FDFE3EC00786034 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		186556FE1FDFE40100786034 /* AESKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AESKit.framework; sourceTree = "<group>"; };
 		186556FF1FDFE40100786034 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		18E9A0D91FE0153900C1EEA4 /* AESKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AESKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				186557021FDFE40100786034 /* CrashReporter.framework in Frameworks */,
-				186557031FDFE43200786034 /* AESKit.framework in Frameworks */,
+				18E9A0DB1FE0154600C1EEA4 /* AESKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +71,7 @@
 		186556C81FDFE39700786034 = {
 			isa = PBXGroup;
 			children = (
+				18E9A0D91FE0153900C1EEA4 /* AESKit.framework */,
 				186556E61FDFE3EA00786034 /* ZeroDeskExample-Bridging-Header.h */,
 				186556FD1FDFE40100786034 /* Framework */,
 				186556D31FDFE39700786034 /* ZeroDeskExample */,
@@ -107,7 +108,6 @@
 		186556FD1FDFE40100786034 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				186556FE1FDFE40100786034 /* AESKit.framework */,
 				186556FF1FDFE40100786034 /* CrashReporter.framework */,
 			);
 			path = Framework;
@@ -319,6 +319,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ZeroDeskExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -343,6 +344,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ZeroDeskExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
