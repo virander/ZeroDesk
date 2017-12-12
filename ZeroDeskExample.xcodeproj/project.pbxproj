@@ -7,21 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		186556D51FDFE39700786034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556D41FDFE39700786034 /* AppDelegate.swift */; };
-		186556D71FDFE39700786034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556D61FDFE39700786034 /* ViewController.swift */; };
-		186556DA1FDFE39700786034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186556D81FDFE39700786034 /* Main.storyboard */; };
-		186556DC1FDFE39700786034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186556DB1FDFE39700786034 /* Assets.xcassets */; };
-		186556DF1FDFE39700786034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186556DD1FDFE39700786034 /* LaunchScreen.storyboard */; };
+		186556F21FDFE3EC00786034 /* ZD_LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556E71FDFE3EB00786034 /* ZD_LandingViewController.swift */; };
+		186556F31FDFE3EC00786034 /* ZD_FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556E81FDFE3EB00786034 /* ZD_FeedbackVC.swift */; };
+		186556F41FDFE3EC00786034 /* ZD_ServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556E91FDFE3EB00786034 /* ZD_ServiceClass.swift */; };
+		186556F51FDFE3EC00786034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556EA1FDFE3EB00786034 /* AppDelegate.swift */; };
+		186556F61FDFE3EC00786034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186556EB1FDFE3EC00786034 /* Assets.xcassets */; };
+		186556F71FDFE3EC00786034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186556EC1FDFE3EC00786034 /* LaunchScreen.storyboard */; };
+		186556F81FDFE3EC00786034 /* ZD_ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556ED1FDFE3EC00786034 /* ZD_ConnectionCheck.swift */; };
+		186556F91FDFE3EC00786034 /* ZD_Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556EE1FDFE3EC00786034 /* ZD_Reach.swift */; };
+		186556FA1FDFE3EC00786034 /* ZD_Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186556EF1FDFE3EC00786034 /* ZD_Define.swift */; };
+		186556FB1FDFE3EC00786034 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186556F01FDFE3EC00786034 /* Info.plist */; };
+		186556FC1FDFE3EC00786034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186556F11FDFE3EC00786034 /* Main.storyboard */; };
+		186557021FDFE40100786034 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186556FF1FDFE40100786034 /* CrashReporter.framework */; };
+		186557031FDFE43200786034 /* AESKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186556FE1FDFE40100786034 /* AESKit.framework */; };
+		186557041FDFE43200786034 /* AESKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 186556FE1FDFE40100786034 /* AESKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		186557051FDFE43200786034 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				186557041FDFE43200786034 /* AESKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		186556D11FDFE39700786034 /* ZeroDeskExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroDeskExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		186556D41FDFE39700786034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		186556D61FDFE39700786034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		186556D91FDFE39700786034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		186556DB1FDFE39700786034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		186556DE1FDFE39700786034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		186556E01FDFE39700786034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186556E61FDFE3EA00786034 /* ZeroDeskExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZeroDeskExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		186556E71FDFE3EB00786034 /* ZD_LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_LandingViewController.swift; sourceTree = "<group>"; };
+		186556E81FDFE3EB00786034 /* ZD_FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_FeedbackVC.swift; sourceTree = "<group>"; };
+		186556E91FDFE3EB00786034 /* ZD_ServiceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_ServiceClass.swift; sourceTree = "<group>"; };
+		186556EA1FDFE3EB00786034 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186556EB1FDFE3EC00786034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186556EC1FDFE3EC00786034 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186556ED1FDFE3EC00786034 /* ZD_ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_ConnectionCheck.swift; sourceTree = "<group>"; };
+		186556EE1FDFE3EC00786034 /* ZD_Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_Reach.swift; sourceTree = "<group>"; };
+		186556EF1FDFE3EC00786034 /* ZD_Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_Define.swift; sourceTree = "<group>"; };
+		186556F01FDFE3EC00786034 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186556F11FDFE3EC00786034 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		186556FE1FDFE40100786034 /* AESKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AESKit.framework; sourceTree = "<group>"; };
+		186556FF1FDFE40100786034 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186557021FDFE40100786034 /* CrashReporter.framework in Frameworks */,
+				186557031FDFE43200786034 /* AESKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +71,7 @@
 		186556C81FDFE39700786034 = {
 			isa = PBXGroup;
 			children = (
+				186556FD1FDFE40100786034 /* Framework */,
 				186556D31FDFE39700786034 /* ZeroDeskExample */,
 				186556D21FDFE39700786034 /* Products */,
 			);
@@ -54,14 +88,29 @@
 		186556D31FDFE39700786034 /* ZeroDeskExample */ = {
 			isa = PBXGroup;
 			children = (
-				186556D41FDFE39700786034 /* AppDelegate.swift */,
-				186556D61FDFE39700786034 /* ViewController.swift */,
-				186556D81FDFE39700786034 /* Main.storyboard */,
-				186556DB1FDFE39700786034 /* Assets.xcassets */,
-				186556DD1FDFE39700786034 /* LaunchScreen.storyboard */,
-				186556E01FDFE39700786034 /* Info.plist */,
+				186556EA1FDFE3EB00786034 /* AppDelegate.swift */,
+				186556EB1FDFE3EC00786034 /* Assets.xcassets */,
+				186556F01FDFE3EC00786034 /* Info.plist */,
+				186556EC1FDFE3EC00786034 /* LaunchScreen.storyboard */,
+				186556F11FDFE3EC00786034 /* Main.storyboard */,
+				186556ED1FDFE3EC00786034 /* ZD_ConnectionCheck.swift */,
+				186556EF1FDFE3EC00786034 /* ZD_Define.swift */,
+				186556E81FDFE3EB00786034 /* ZD_FeedbackVC.swift */,
+				186556E71FDFE3EB00786034 /* ZD_LandingViewController.swift */,
+				186556EE1FDFE3EC00786034 /* ZD_Reach.swift */,
+				186556E91FDFE3EB00786034 /* ZD_ServiceClass.swift */,
+				186556E61FDFE3EA00786034 /* ZeroDeskExample-Bridging-Header.h */,
 			);
 			path = ZeroDeskExample;
+			sourceTree = "<group>";
+		};
+		186556FD1FDFE40100786034 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				186556FE1FDFE40100786034 /* AESKit.framework */,
+				186556FF1FDFE40100786034 /* CrashReporter.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +123,7 @@
 				186556CD1FDFE39700786034 /* Sources */,
 				186556CE1FDFE39700786034 /* Frameworks */,
 				186556CF1FDFE39700786034 /* Resources */,
+				186557051FDFE43200786034 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +146,7 @@
 				TargetAttributes = {
 					186556D01FDFE39700786034 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186556DF1FDFE39700786034 /* LaunchScreen.storyboard in Resources */,
-				186556DC1FDFE39700786034 /* Assets.xcassets in Resources */,
-				186556DA1FDFE39700786034 /* Main.storyboard in Resources */,
+				186556F61FDFE3EC00786034 /* Assets.xcassets in Resources */,
+				186556F71FDFE3EC00786034 /* LaunchScreen.storyboard in Resources */,
+				186556FB1FDFE3EC00786034 /* Info.plist in Resources */,
+				186556FC1FDFE3EC00786034 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186556D71FDFE39700786034 /* ViewController.swift in Sources */,
-				186556D51FDFE39700786034 /* AppDelegate.swift in Sources */,
+				186556F51FDFE3EC00786034 /* AppDelegate.swift in Sources */,
+				186556F41FDFE3EC00786034 /* ZD_ServiceClass.swift in Sources */,
+				186556F81FDFE3EC00786034 /* ZD_ConnectionCheck.swift in Sources */,
+				186556F21FDFE3EC00786034 /* ZD_LandingViewController.swift in Sources */,
+				186556F31FDFE3EC00786034 /* ZD_FeedbackVC.swift in Sources */,
+				186556FA1FDFE3EC00786034 /* ZD_Define.swift in Sources */,
+				186556F91FDFE3EC00786034 /* ZD_Reach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		186556D81FDFE39700786034 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				186556D91FDFE39700786034 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		186556DD1FDFE39700786034 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				186556DE1FDFE39700786034 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		186556E11FDFE39700786034 /* Debug */ = {
@@ -274,12 +312,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SYLT36L949;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = ZeroDeskExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.successive.adhoc.ZeroDeskExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZeroDeskExample/ZeroDeskExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +336,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SYLT36L949;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = ZeroDeskExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.successive.adhoc.ZeroDeskExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZeroDeskExample/ZeroDeskExample-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
