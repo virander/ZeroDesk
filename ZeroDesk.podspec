@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  # s.preserve_path = "${POD_ROOT}/ZeroDesk/ZeroDeskExample-Bridging-Header.h"
-  s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '${POD_ROOT}/ZeroDeskExample/ZeroDeskExample-Bridging-Header.h' }
+  s.preserve_path = "${POD_ROOT}/ZeroDesk/ZeroDeskExample-Bridging-Header.h"
+  s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '${POD_ROOT}/ZeroDesk/ZeroDeskExample-Bridging-Header.h' }
 
 end

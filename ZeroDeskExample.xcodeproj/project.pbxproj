@@ -71,6 +71,7 @@
 		186556C81FDFE39700786034 = {
 			isa = PBXGroup;
 			children = (
+				186556E61FDFE3EA00786034 /* ZeroDeskExample-Bridging-Header.h */,
 				186556FD1FDFE40100786034 /* Framework */,
 				186556D31FDFE39700786034 /* ZeroDeskExample */,
 				186556D21FDFE39700786034 /* Products */,
@@ -99,7 +100,6 @@
 				186556E71FDFE3EB00786034 /* ZD_LandingViewController.swift */,
 				186556EE1FDFE3EC00786034 /* ZD_Reach.swift */,
 				186556E91FDFE3EB00786034 /* ZD_ServiceClass.swift */,
-				186556E61FDFE3EA00786034 /* ZeroDeskExample-Bridging-Header.h */,
 			);
 			path = ZeroDeskExample;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZeroDeskExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -350,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.successive.adhoc.ZeroDeskExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZeroDeskExample-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
