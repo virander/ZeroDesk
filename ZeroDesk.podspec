@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   s.requires_arc = true
-  s.preserve_path = "ZeroDeskExample-Bridging-Header.h", 'Framework/AESKit.modulemap'
+  s.preserve_path = "ZeroDeskExample-Bridging-Header.h", 'AESKit.modulemap'
 
   s.frameworks = 'AESKit'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => 'ZeroDesk/Framework/AESKit.framework' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => 'ZeroDesk/AESKit.framework' }
 
 
 end
