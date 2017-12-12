@@ -1,0 +1,11 @@
+framework module AESKit {
+  umbrella header "AESKit.h"
+
+  export *
+  module * { export * }
+}
+
+module AESKit.Swift {
+    header "AESKit-Swift.h"
+    requires objc
+}
