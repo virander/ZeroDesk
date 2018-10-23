@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002EC24F2175CB2100DFFF0A /* Cryptography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180B9E232154DC72008B31BB /* Cryptography.framework */; };
+		002EC2502175CB2100DFFF0A /* Cryptography.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 180B9E232154DC72008B31BB /* Cryptography.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		002EC2542175CB4600DFFF0A /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180B9E1F2154DB63008B31BB /* CrashReporter.framework */; };
+		182E24421FDEA618003F594B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E24411FDEA618003F594B /* AppDelegate.swift */; };
+		182E24471FDEA618003F594B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E24451FDEA618003F594B /* Main.storyboard */; };
+		182E244C1FDEA618003F594B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E244A1FDEA618003F594B /* LaunchScreen.storyboard */; };
+		182E24571FDEA697003F594B /* ZD_LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E24561FDEA697003F594B /* ZD_LandingViewController.swift */; };
+		182E24591FDEA6AA003F594B /* ZD_FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E24581FDEA6AA003F594B /* ZD_FeedbackVC.swift */; };
+		182E24601FDEA6C4003F594B /* ZD_ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E245A1FDEA6C3003F594B /* ZD_ConnectionCheck.swift */; };
+		182E24631FDEA6C4003F594B /* ZD_ServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E245D1FDEA6C4003F594B /* ZD_ServiceClass.swift */; };
+		182E24641FDEA6C4003F594B /* ZD_Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E245E1FDEA6C4003F594B /* ZD_Define.swift */; };
+		182E24651FDEA6C4003F594B /* ZD_Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E245F1FDEA6C4003F594B /* ZD_Reach.swift */; };
+		182E246D1FDEAA7C003F594B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E246C1FDEAA7C003F594B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		002EC2532175CB2100DFFF0A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				002EC2502175CB2100DFFF0A /* Cryptography.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180B9E1F2154DB63008B31BB /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		180B9E232154DC72008B31BB /* Cryptography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cryptography.framework; sourceTree = "<group>"; };
+		182E243E1FDEA618003F594B /* zeroDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zeroDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182E24411FDEA618003F594B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182E24461FDEA618003F594B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182E244B1FDEA618003F594B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182E24561FDEA697003F594B /* ZD_LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_LandingViewController.swift; sourceTree = "<group>"; };
+		182E24581FDEA6AA003F594B /* ZD_FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_FeedbackVC.swift; sourceTree = "<group>"; };
+		182E245A1FDEA6C3003F594B /* ZD_ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_ConnectionCheck.swift; sourceTree = "<group>"; };
+		182E245D1FDEA6C4003F594B /* ZD_ServiceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_ServiceClass.swift; sourceTree = "<group>"; };
+		182E245E1FDEA6C4003F594B /* ZD_Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_Define.swift; sourceTree = "<group>"; };
+		182E245F1FDEA6C4003F594B /* ZD_Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZD_Reach.swift; sourceTree = "<group>"; };
+		182E246B1FDEA7B0003F594B /* TESTZD-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TESTZD-Bridging-Header.h"; sourceTree = "<group>"; };
+		182E246C1FDEAA7C003F594B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182E246E1FDEAA94003F594B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182E243B1FDEA618003F594B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002EC2542175CB4600DFFF0A /* CrashReporter.framework in Frameworks */,
+				002EC24F2175CB2100DFFF0A /* Cryptography.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002EC2552175CEF400DFFF0A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				182E245A1FDEA6C3003F594B /* ZD_ConnectionCheck.swift */,
+				182E245E1FDEA6C4003F594B /* ZD_Define.swift */,
+				182E245F1FDEA6C4003F594B /* ZD_Reach.swift */,
+				182E245D1FDEA6C4003F594B /* ZD_ServiceClass.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		002EC2562175CF1200DFFF0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				182E24581FDEA6AA003F594B /* ZD_FeedbackVC.swift */,
+				182E24561FDEA697003F594B /* ZD_LandingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		182E24351FDEA618003F594B = {
+			isa = PBXGroup;
+			children = (
+				182E24531FDEA633003F594B /* Framework */,
+				182E24401FDEA618003F594B /* zeroDesk */,
+				182E243F1FDEA618003F594B /* Products */,
+				186556C01FDFBB6000786034 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182E243F1FDEA618003F594B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182E243E1FDEA618003F594B /* zeroDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182E24401FDEA618003F594B /* zeroDesk */ = {
+			isa = PBXGroup;
+			children = (
+				182E24411FDEA618003F594B /* AppDelegate.swift */,
+				002EC2562175CF1200DFFF0A /* Controller */,
+				002EC2552175CEF400DFFF0A /* Helper */,
+				182E24451FDEA618003F594B /* Main.storyboard */,
+				182E244A1FDEA618003F594B /* LaunchScreen.storyboard */,
+				182E246C1FDEAA7C003F594B /* Assets.xcassets */,
+				182E246E1FDEAA94003F594B /* Info.plist */,
+			);
+			path = zeroDesk;
+			sourceTree = "<group>";
+		};
+		182E24531FDEA633003F594B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				180B9E232154DC72008B31BB /* Cryptography.framework */,
+				180B9E1F2154DB63008B31BB /* CrashReporter.framework */,
+				182E246B1FDEA7B0003F594B /* TESTZD-Bridging-Header.h */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		186556C01FDFBB6000786034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182E243D1FDEA618003F594B /* zeroDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182E24501FDEA618003F594B /* Build configuration list for PBXNativeTarget "zeroDesk" */;
+			buildPhases = (
+				182E243A1FDEA618003F594B /* Sources */,
+				182E243B1FDEA618003F594B /* Frameworks */,
+				182E243C1FDEA618003F594B /* Resources */,
+				002EC2532175CB2100DFFF0A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zeroDesk;
+			productName = TESTZD;
+			productReference = 182E243E1FDEA618003F594B /* zeroDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182E24361FDEA618003F594B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Apple ";
+				TargetAttributes = {
+					182E243D1FDEA618003F594B = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 182E24391FDEA618003F594B /* Build configuration list for PBXProject "zeroDesk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182E24351FDEA618003F594B;
+			productRefGroup = 182E243F1FDEA618003F594B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182E243D1FDEA618003F594B /* zeroDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182E243C1FDEA618003F594B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E244C1FDEA618003F594B /* LaunchScreen.storyboard in Resources */,
+				182E246D1FDEAA7C003F594B /* Assets.xcassets in Resources */,
+				182E24471FDEA618003F594B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182E243A1FDEA618003F594B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E24591FDEA6AA003F594B /* ZD_FeedbackVC.swift in Sources */,
+				182E24601FDEA6C4003F594B /* ZD_ConnectionCheck.swift in Sources */,
+				182E24631FDEA6C4003F594B /* ZD_ServiceClass.swift in Sources */,
+				182E24651FDEA6C4003F594B /* ZD_Reach.swift in Sources */,
+				182E24421FDEA618003F594B /* AppDelegate.swift in Sources */,
+				182E24571FDEA697003F594B /* ZD_LandingViewController.swift in Sources */,
+				182E24641FDEA6C4003F594B /* ZD_Define.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182E24451FDEA618003F594B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182E24461FDEA618003F594B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182E244A1FDEA618003F594B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182E244B1FDEA618003F594B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182E244E1FDEA618003F594B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182E244F1FDEA618003F594B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182E24511FDEA618003F594B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SYLT36L949;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = zeroDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.successive.adhoc.TESTZD;
+				PRODUCT_MODULE_NAME = zeroDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = AdHocDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Framework/TESTZD-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182E24521FDEA618003F594B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SYLT36L949;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = zeroDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.successive.adhoc.TESTZD;
+				PRODUCT_MODULE_NAME = zeroDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = AdHocDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Framework/TESTZD-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182E24391FDEA618003F594B /* Build configuration list for PBXProject "zeroDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E244E1FDEA618003F594B /* Debug */,
+				182E244F1FDEA618003F594B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182E24501FDEA618003F594B /* Build configuration list for PBXNativeTarget "zeroDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E24511FDEA618003F594B /* Debug */,
+				182E24521FDEA618003F594B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182E24361FDEA618003F594B /* Project object */;
+}
